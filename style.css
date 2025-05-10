@@ -1,6 +1,6 @@
 body {
-  background-color: #1a001f; /* deep purple-black */
-  color: #f4f0ff;            /* soft lavender-white text */
+  background-color: #f4f0ff; /* light lavender background */
+  color: #2b0047;            /* deep purple text */
   font-family: system-ui, sans-serif;
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: #d6b4ff; /* muted orchid */
+  color: #5a2a90; /* orchid/deep purple */
   margin-bottom: 0.5em;
 }
 
@@ -36,26 +36,26 @@ button:hover {
 .card img {
   max-height: 300px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 20px rgba(60, 0, 90, 0.2);
 }
 
 .interpretation {
-  background-color: #f2ecff;
-  color: #2b0047;
+  background-color: #f2e9ff;
+  color: #2e004f;
   text-align: left;
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .interpretation h2,
 .interpretation h3 {
-  color: #3e006a;
+  color: #4d008a;
 }
 
 .interpretation em {
-  color: #6a1b9a;
+  color: #7b35c8;
   font-style: italic;
 }
