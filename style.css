@@ -75,3 +75,14 @@ header {
   transform: scale(1.05);
 }
 
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #6b4a8b;
+  font-size: 0.9rem;
+  background-color: #f2e9ff; /* matches your interpretation box */
+  margin-top: 4rem;
+  border-top: 1px solid #e0cce8;
+}
+
+
