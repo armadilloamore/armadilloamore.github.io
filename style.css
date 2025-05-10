@@ -35,10 +35,8 @@ button:hover {
 
 .card img {
   max-height: 300px;
-  padding: 10px;
   box-shadow: 0 0 20px rgba(60, 0, 90, 0.2); /* Optional: keep the shadow */
 }
-
 
 .interpretation {
   background-color: #f2e9ff;
