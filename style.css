@@ -60,3 +60,20 @@ button:hover {
   color: #7b35c8;
   font-style: italic;
 }
+
+header {
+  background-color: transparent;
+  text-align: center;
+  padding: 1rem;
+}
+
+.site-logo {
+  max-width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.site-logo:hover {
+  transform: scale(1.05);
+}
+
