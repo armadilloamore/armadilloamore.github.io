@@ -4,43 +4,62 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="favicon.png" />
-  <title>Armadillo Amore Tarot Reading Hub</title>
+  <title>Armadillo Amore Tarot & Oracle Reading Hub</title>
   <link rel="stylesheet" href="style.css" />
-  
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-72F8PY4EHK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-72F8PY4EHK');
-</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-72F8PY4EHK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-72F8PY4EHK');
+  </script>
 </head>
 <body>
   <header>
-    <img src="../logo.png" alt="Home" class="site-logo" />
-    <h1>Welcome to the Armadillo Amore Tarot Reading Hub 🔮</h1>
-    <p>Explore one-card tarot readings for empowerment, compassion, and self-understanding.</p>
+    <img src="logo.png" alt="Armadillo Amore" class="site-logo" />
+    <h1>Tarot & Oracle Reading Hub 🔮</h1>
+    <p>Choose a simple one-card reading for reflection, encouragement, and gentle clarity.</p>
   </header>
 
-  <main>
-    <section>
-      <h2>✨ Tarot Reading Web Apps</h2>
-      <p><a href="empowered/empowered.html">Empowered One-Card Readings</a></p>
-      <p><a href="compassionate/compassionate.html">Compassionate One-Card Readings</a></p>
-      <!-- <p><a href="jungian/jungian.html">“Why Am I Stuck?” Jungian Readings</a></p> -->
+  <main class="hub-main">
+    <section class="hub-section" aria-labelledby="tarot-readings">
+      <h2 id="tarot-readings">✨ Rider-Waite-Smith Tarot Readings</h2>
+      <div class="reading-grid">
+        <a class="reading-link" href="empowered/empowered.html">
+          <span class="reading-emoji" aria-hidden="true">🌟</span>
+          <span class="reading-title">Empowered Reading</span>
+          <span class="reading-description">A message for strength and clarity</span>
+        </a>
+        <a class="reading-link" href="compassionate/compassionate.html">
+          <span class="reading-emoji" aria-hidden="true">🕊️</span>
+          <span class="reading-title">Compassionate Reading</span>
+          <span class="reading-description">A message for care and inner peace</span>
+        </a>
+      </div>
     </section>
 
-    <section>
-      <h2>🔮 About This Site</h2>
-      <p>This is a growing hub of tarot experiences built for insight and clarity. More reading tools are coming soon!</p>
+    <section class="hub-section" aria-labelledby="oracle-readings">
+      <h2 id="oracle-readings">🌸 Oracle Readings</h2>
+      <div class="reading-grid reading-grid-single">
+        <a class="reading-link oracle-link" href="seasons/index.html">
+          <img src="seasons/seasons-icon.webp" alt="" class="reading-icon" />
+          <span class="reading-title">Seasons of the Heart</span>
+          <span class="reading-description">Draw from 30 Japanese-inspired emotional values</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="hub-section about-section" aria-labelledby="about-site">
+      <h2 id="about-site">🔮 About This Site</h2>
+      <p>This is a growing collection of small digital rituals for insight and self-reflection. Each reading invites you to pause, notice what resonates, and carry one gentle idea into your day.</p>
     </section>
   </main>
 
   <footer>
     <p><a href="https://armadilloamore.com/" target="_blank" rel="noopener noreferrer">Shop</a> | <a href="https://armadilloamore.blog/" target="_blank" rel="noopener noreferrer">Blog</a></p>
-    <p>© 2025 Armadillo Amore LLC. Built with intuition & code. 🔮</p>
+    <p>© 2026 Armadillo Amore LLC. Built with intuition & code. 🔮</p>
   </footer>
 </body>
 </html>
