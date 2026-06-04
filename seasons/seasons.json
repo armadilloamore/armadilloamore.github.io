@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Gaman",
+    "image": "cards/1-gaman.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Kaizen",
+    "image": "cards/2-kaizen.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Shokunin",
+    "image": "cards/3-shokunin.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Ganbaru",
+    "image": "cards/4-ganbaru.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Shisei",
+    "image": "cards/5-shisei.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Kokorozashi",
+    "image": "cards/6-kokorozashi.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Chie",
+    "image": "cards/7-chie.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Seiketsu",
+    "image": "cards/8-seiketsu.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Kibo",
+    "image": "cards/9-kibo.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Yuki",
+    "image": "cards/10-yuki.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Wa",
+    "image": "cards/11-wa.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Rei",
+    "image": "cards/12-rei.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Omoiyari",
+    "image": "cards/13-omoiyari.webp",
+    "meaning": ""
+  },
+  {
+    "name": "En",
+    "image": "cards/14-en.webp",
+    "meaning": ""
+  },
+  {
+    "name": "On",
+    "image": "cards/15-on.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Nintai",
+    "image": "cards/16-nintai.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Shinsetsu",
+    "image": "cards/17-shinsetsu.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Chugi",
+    "image": "cards/18-chugi.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Aimai",
+    "image": "cards/19-aimai.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Setsunai",
+    "image": "cards/20-setsunai.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Wabisabi",
+    "image": "cards/21-wabisabi.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Shibui",
+    "image": "cards/22-shibui.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Ikigai",
+    "image": "cards/23-ikigai.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Mono no Aware",
+    "image": "cards/24-mononoaware.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Kanso",
+    "image": "cards/25-kanso.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Seijaku",
+    "image": "cards/26-seijaku.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Shizen",
+    "image": "cards/27-shizen.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Yugen",
+    "image": "cards/28-yugen.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Kacho Fugetsu",
+    "image": "cards/29-kachofugetsu.webp",
+    "meaning": ""
+  },
+  {
+    "name": "Hanami",
+    "image": "cards/30-hanami.webp",
+    "meaning": ""
+  }
+]
