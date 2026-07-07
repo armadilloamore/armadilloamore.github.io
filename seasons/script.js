@@ -22,11 +22,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     drawBtn.disabled = false;
     drawBtn.textContent = "Draw Your Card";
-    statusMessage.textContent = "";
+    statusMessage. = "";
   } catch (error) {
     console.error("Seasons of the Heart deck error:", error);
-    drawBtn.textContent = "Deck Unavailable";
-    statusMessage.textContent = "The deck could not be loaded. Please refresh the page and try again.";
+    drawBtn. = "Deck Unavailable";
+    statusMessage. = "The deck could not be loaded. Please refresh the page and try again.";
     return;
   }
 
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     cardImage.src = card.image;
     cardImage.alt = `${card.name} oracle card`;
     cardTitle.textContent = card.name;
-    cardMeaning.textContent = card.meaning || "Let the image and the name of this card speak gently to your present season.";
+    cardMeaning.innerHTML = card.meaning || "Let the image and the name of this card speak gently to your present season.";
     resultBox.hidden = false;
     drawBtn.textContent = "Draw Another Card";
     statusMessage.textContent = `You drew ${card.name}.`;
