@@ -282,6 +282,9 @@ function renderCardGrid(containerId) {
     if (card.live && card.page) {
       return `
         <a href="${card.page}" class="card-entry">
+          <div class="library-card-image-wrap">
+            <img src="card-${card.page.replace('.html', '')}.jpg" alt="${card.name} oracle card" class="library-card-image" loading="lazy" />
+          </div>
           <p class="card-number">Card ${String(card.id).padStart(2, '0')}</p>
           <p class="card-kanji">${card.kanji}</p>
           <p class="card-name">${card.name}</p>
