@@ -381,6 +381,9 @@ function renderDrawnCard(card) {
   result.innerHTML = `
     <div class="revealed-card">
       <p class="rc-eyebrow">Card ${String(card.id).padStart(2, '0')} of 30 · Your Reading</p>
+      <div class="rc-card-image-wrap">
+        <img src="card-${card.page.replace('.html', '')}.jpg" alt="${card.name} oracle card" class="rc-card-image" />
+      </div>
       <p class="rc-kanji-bg">${card.kanji}</p>
       <h2 class="rc-title"><em>${card.name}</em></h2>
       <p class="rc-kanji-sub">${card.kanji} · ${card.tagline}</p>
