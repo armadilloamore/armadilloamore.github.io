@@ -65,7 +65,14 @@ nav {
 
 .nav-links a:hover { color: var(--terracotta); }
 
-@media (max-width: 600px) { .nav-links { display: none; } }
+@media (max-width: 600px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+  }
+}
 
 /* ── HERO ── */
 .hero {
